@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import ForexApp from './ForexApp';
 import * as serviceWorker from './serviceWorker';
+
+// bootstrap
+import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ForexApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
