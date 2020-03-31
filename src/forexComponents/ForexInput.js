@@ -17,7 +17,7 @@ class ForexInput extends Component {
                 </Label>
                 <Input
                     style = {{
-                        width: '150px'
+                        width: '180px'
                     }}
                     className = 'text-center rounded-0'
                     placeholder = { this.props.placeholder }
